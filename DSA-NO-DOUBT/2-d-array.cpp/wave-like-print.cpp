@@ -26,7 +26,7 @@ vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols)
             ans.push_back(arr[i][j]);
             i--; 
             }
-        }
+        }git 
 
 
     }
