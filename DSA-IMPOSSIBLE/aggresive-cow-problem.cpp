@@ -61,4 +61,6 @@ int aggressiveCows(vector<int> &arr, int k){
     }
     return ans;
 
-//Still dont understand the possiblesol logic. Will need to understadn later with a fresher mind. Did understand why we needed to sort the array and the search space.those two ideas i came up with on my own. However i could not think of the logic of possiblesol even though i knew i had to implement that method.
+//Still dont understand the possiblesol logic. 
+//Will need to understadn later with a fresher mind. Did understand why we needed to sort the array and the search space.those two ideas i came up with on my own.
+// However i could not think of the logic of possiblesol even though i knew i had to implement that method.
