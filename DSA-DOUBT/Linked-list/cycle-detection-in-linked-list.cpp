@@ -42,11 +42,18 @@ bool isCircular(Node* head){
     while (fast!=NULL && fast->next!=NULL){
         fast= fast->next->next;
         slow= slow->next;
-        if (fast==slow)
-        if (fast==head) //since this qsn only considers it a loop if looping is from head. 
-        return true; 
-        else
-        return false; 
+        if (fast==slow){
+                slow = head; 
+                while (slow != fast){
+                        fast = fast -> next; 
+                        slow = slow -> next;}
+                 if (fast==head) //since this qsn only considers it a loop if looping is from head. 
+                return true; 
+                else
+                return false; 
+        }
+       
+        
         
     }
     return false; 
