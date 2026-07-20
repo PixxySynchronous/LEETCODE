@@ -21,7 +21,7 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int sum =INT_MIN ; 
+        int sum =INT_MIN ; //Since empty array sum is 0, int sum should start from 0. 
         int currentsum = 0;
         for ( int i =0 ; i< nums.size(); i++){
             

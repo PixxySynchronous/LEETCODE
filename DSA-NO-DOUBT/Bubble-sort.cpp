@@ -5,8 +5,8 @@ void bubbleSort(vector<int> &arr, int n)
     for (int round = 0; round < n - 1; round++)
     {
         bool swapped = false;
-        while (i + 1 < n - round)
-        {
+        while (i < n - round - 1) //first we look at all n-1 indices. Then we look at n-2 indices, then n-3 indices and so on. This is because the largest element is bubbled to the end of the array in each round.
+        //also not = sign as we access i+1 in the loop, so we need to stop at n-2 index.
             if (arr[i + 1] < arr[i])
             {
                 swap(arr[i], arr[i + 1]);
