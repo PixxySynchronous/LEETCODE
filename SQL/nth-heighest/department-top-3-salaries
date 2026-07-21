@@ -1,0 +1,14 @@
+SELECT Department, Employee, Salary
+FROM (
+    SELECT d.name AS Department,
+           e.name AS Employee,
+           e.salary AS Salary,
+           DENSE_RANK() OVER (PARTITION BY d.name ORDER BY e.salary DESC) AS rnk 
+    #Dense rank ranks every row.If rows have same number, they get the same ranking. Since qsns wants us to return all people from a dept,
+    #earnign top 3 salaries, ppl with same salaries also need to returned so dense rank usage is good here. PARTITION BY indicates that the ranking must be done separately for each grp. 
+    #ALL of this is in a select which is wrapped with another select, because ranks get calculated at the end of a query so we need to wrap it in a select clause cause only then can we access rnk<=3 later on. Every wrapper needs an alias if it is in the scope of
+    #FROM so the t is an alias
+    #FROM Employee e
+    JOIN Department d ON e.departmentId = d.id
+) as t
+WHERE rnk <= 3;

@@ -1,0 +1,10 @@
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+    SET N = N-1; #we need offset n-1 to get the n highest salary but offset doesnt take mathematical expressions as parameter so we need to set n as this beforehand. 
+  RETURN (
+      SELECT distinct(salary) FROM Employee 
+      ORDER BY salary DESC LIMIT 1 OFFSET N
+  );
+END
+# NOTE: Need to put a ; after set. 
+# Dont need a separate select wrapper as the return wrapper itself returns NULL if no rows are found. 

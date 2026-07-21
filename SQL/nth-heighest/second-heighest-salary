@@ -1,0 +1,9 @@
+# Write your MySQL query statement below
+
+SELECT(SELECT distinct(salary) as  SecondHighestSalary FROM Employee
+ORDER BY salary DESC LIMIT 1 OFFSET 1) as SecondHighestSalary
+
+#IMP TO NOTE:
+# limit and offset dont have equal to in their syntax. 
+# if the first select gets no values, we need to return NULL 
+# so for that we need to wrap it in a second select.  s
