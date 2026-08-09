@@ -47,6 +47,8 @@ pie showData
 
 ### DSA-DOUBT (94)
 
+<div align="center">
+
 | Topic | Count |
 |---|---|
 | 2-d-Array | 6 |
@@ -59,26 +61,42 @@ pie showData
 | Strings | 16 |
 | Trees | 6 |
 
+</div>
+
 ### DSA-NO-DOUBT (11)
+
+<div align="center">
 
 | Topic | Count |
 |---|---|
 | 2-d-array.cpp | 2 |
 | (General) | 9 |
 
+</div>
+
 ### DSA-IMPOSSIBLE (2)
+
+<div align="center">
 
 | Topic | Count |
 |---|---|
 | (General) | 2 |
 
+</div>
+
 ### Patterns (1)
+
+<div align="center">
 
 | Topic | Count |
 |---|---|
 | (General) | 1 |
 
+</div>
+
 ### SQL (15)
+
+<div align="center">
 
 | Topic | Count |
 |---|---|
@@ -86,6 +104,8 @@ pie showData
 | Group-By | 4 |
 | JOINS | 5 |
 | nth-heighest | 3 |
+
+</div>
 <!-- STATS:END -->
 
 ## Purpose

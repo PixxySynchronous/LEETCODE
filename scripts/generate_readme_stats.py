@@ -71,10 +71,14 @@ def build_stats_markdown():
         category_total = sum(breakdown.values())
         lines.append(f"### {category} ({category_total})")
         lines.append("")
+        lines.append('<div align="center">')
+        lines.append("")
         lines.append("| Topic | Count |")
         lines.append("|---|---|")
         for topic in sorted(breakdown, key=lambda t: (t == ROOT_LABEL, t.lower())):
             lines.append(f"| {topic} | {breakdown[topic]} |")
+        lines.append("")
+        lines.append("</div>")
         lines.append("")
 
     return "\n".join(lines).rstrip("\n")
