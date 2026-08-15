@@ -20,21 +20,21 @@ This repository contains my **personally written solutions** to problems from
 <!-- STATS:START -->
 ## Progress Stats
 
-**Total Questions Solved: 124**
+**Total Questions Solved: 130**
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#ff595e', 'pie2': '#ff924c', 'pie3': '#ffca3a', 'pie4': '#c5ca30','pie5': '#8ac926', 'pie6': '#36949d', 'pie7': '#1982c4', 'pie8': '#4267ac','pie9': '#565aa0', 'pie10': '#6a4c93', 'pie11': '#b5179e', 'pie12': '#f15bb5','pieOpacity': '1', 'pieStrokeColor': '#00000022', 'pieOuterStrokeWidth': '0'}}}%%
 pie showData
     title Questions Solved by Topic
     "DSA-DOUBT: 2-d-Array" : 6
-    "DSA-DOUBT: ARRAY Questions" : 27
+    "DSA-DOUBT: ARRAY Questions" : 32
     "DSA-DOUBT: Linked-list" : 13
     "DSA-DOUBT: Number system" : 5
     "DSA-DOUBT: Queue" : 3
     "DSA-DOUBT: Recursion" : 5
     "DSA-DOUBT: Stacks " : 13
     "DSA-DOUBT: Strings" : 16
-    "DSA-DOUBT: Trees" : 7
+    "DSA-DOUBT: Trees" : 8
     "DSA-NO-DOUBT: 2-d-array.cpp" : 2
     "DSA-NO-DOUBT" : 9
     "DSA-IMPOSSIBLE" : 2
@@ -45,21 +45,21 @@ pie showData
     "SQL: nth-heighest" : 3
 ```
 
-### DSA-DOUBT (95)
+### DSA-DOUBT (101)
 
 <div align="center">
 
 | Topic | Count |
 |---|---|
 | 2-d-Array | 6 |
-| ARRAY Questions | 27 |
+| ARRAY Questions | 32 |
 | Linked-list | 13 |
 | Number system | 5 |
 | Queue | 3 |
 | Recursion | 5 |
 | Stacks  | 13 |
 | Strings | 16 |
-| Trees | 7 |
+| Trees | 8 |
 
 </div>
 
