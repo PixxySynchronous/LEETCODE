@@ -20,7 +20,7 @@ This repository contains my **personally written solutions** to problems from
 <!-- STATS:START -->
 ## Progress Stats
 
-**Total Questions Solved: 138**
+**Total Questions Solved: 140**
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#ff595e', 'pie2': '#ff924c', 'pie3': '#ffca3a', 'pie4': '#c5ca30','pie5': '#8ac926', 'pie6': '#36949d', 'pie7': '#1982c4', 'pie8': '#4267ac','pie9': '#565aa0', 'pie10': '#6a4c93', 'pie11': '#b5179e', 'pie12': '#f15bb5','pieOpacity': '1', 'pieStrokeColor': '#00000022', 'pieOuterStrokeWidth': '0'}}}%%
@@ -34,7 +34,7 @@ pie showData
     "DSA-DOUBT: Recursion" : 5
     "DSA-DOUBT: Stacks " : 13
     "DSA-DOUBT: Strings" : 16
-    "DSA-DOUBT: Trees" : 14
+    "DSA-DOUBT: Trees" : 16
     "DSA-NO-DOUBT: 2-d-array.cpp" : 2
     "DSA-NO-DOUBT" : 9
     "DSA-IMPOSSIBLE" : 2
@@ -45,7 +45,7 @@ pie showData
     "SQL: nth-heighest" : 3
 ```
 
-### DSA-DOUBT (109)
+### DSA-DOUBT (111)
 
 <div align="center">
 
@@ -59,7 +59,7 @@ pie showData
 | Recursion | 5 |
 | Stacks  | 13 |
 | Strings | 16 |
-| Trees | 14 |
+| Trees | 16 |
 
 </div>
 
