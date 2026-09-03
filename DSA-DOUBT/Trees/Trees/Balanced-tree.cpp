@@ -57,6 +57,7 @@ class Solution {
         //1. For the root node, the height of left tree - height right tree <=1 
         //2.Left subtree is balanced. 
         //3.right subtree is balanced.
+        //We have to do the above 2 becasue a balanced tree is a tree which is balanced at every node, not just the root.
         //this is necessary as we need to check each node of the tree, not just the root. 
         //One approach is to call the height function for left and right subtrees, and then compute 
         //the abs diff between them. and then call the is balnced function for the left and the 

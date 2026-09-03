@@ -72,8 +72,9 @@ public:
                 int area = (nextSmall[i] - prevSmall[i] - 1)*heights[i];
                 maxArea = max(maxArea, area);
             } 
-           
-        }
-        return maxArea; 
+            // We dont need to check for previous small element being -1, as that is already handled in the above if condition.
+            // The formula for area is (nextSmall[i] - prevSmall[i] - 1)*heights[i]
+            // if prevsmall[i] = -1, then nextSmall[i] - prevSmall[i] - 1 = nextSmall[i] - (-1) - 1 = nextSmall[i] + 1 - 1 = nextSmall[i]
+            
     }
 };

@@ -1,4 +1,5 @@
-// Consider a rat placed at position (0, 0) in an n x n square matrix maze[][]. The rat's goal is to reach the destination at position (n-1, n-1). The rat can move in four possible directions: 'U'(up), 'D'(down), 'L' (left), 'R' (right).
+// Consider a rat placed at position (0, 0) in an n x n square matrix maze[][]. The rat's goal is to reach the destination at position (n-1, n-1). 
+//The rat can move in four possible directions: 'U'(up), 'D'(down), 'L' (left), 'R' (right).
 
 // The matrix contains only two possible values:
 
@@ -17,7 +18,7 @@ class Solution {
         }
         
         
-        if (posx-1>=0 && maze[posx-1][posy]!= 0 && visited[posx-1][posy]!= 1){
+        if (posx-1>=0 && maze[posx-1][posy]!= 0 && visited[posx-1][posy]!= 1){ // 3 conditions to check if we can move up. 1. posx-1 should be in bounds, 2. maze[posx-1][posy] should not be blocked, 3. visited[posx-1][posy] should not be visited already.
             path+="U";
             visited[posx-1][posy] = 1;
             solve (maze,visited,output,path,posx-1,posy,n); 
@@ -59,7 +60,7 @@ class Solution {
         int startposy = 0 ; 
         string path= ""; 
         solve (maze,visited, output,path, startposx , startposy, n); 
-        sort(output.begin(),output.end()); 
+        sort(output.begin(),output.end()); // sort the output in lexicographical order as required by the problem statement.
         return output; 
         
     }

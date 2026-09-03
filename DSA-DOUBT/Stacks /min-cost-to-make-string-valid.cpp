@@ -21,7 +21,7 @@ int findMinimumCost(string str) {
     if (c == '}' ){
         if (st.empty()){
         st.push('{');
-        operations++;
+        operations++; 
         } //cant put closing brackets in empty stack so flip it. 
         else{
           st.pop(); 
@@ -36,7 +36,7 @@ int findMinimumCost(string str) {
     return -1; //cant fix odd number of open brackets by flipping
   }
   else {
-    operations+=(st.size()/2); 
+    operations+=(st.size()/2); // for every 2 opening brackets, we can flip one to make a valid pair.
     return operations; 
   }
 

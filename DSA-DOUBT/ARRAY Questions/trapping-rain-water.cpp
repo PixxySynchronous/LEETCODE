@@ -27,9 +27,9 @@ public:
         vector<int> prefix (n);
         int maxHeight = height[0]; //for loop below starts from i=1, so for that, maxHeight(to the left) should be first element. 
         prefix[0] = 0; //Left side of the first element is 0 as no boundary exists. 
-        for (int i = 1; i<n; i++){
-            prefix[i] = max(maxHeight,height[i-1]); 
-            maxHeight = max(maxHeight, height[i]);
+         for (int i = 1; i<height.size(); i++){
+            prefix[i]= maxHeight;
+            maxHeight = max(maxHeight, height[i]); 
         }
         int water = 0; 
         int maxRheight = 0;  

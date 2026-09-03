@@ -28,7 +28,7 @@ void solve (stack<int>&inputStack, int mid , int count){
    }
    int num = inputStack.top();
    inputStack.pop(); 
-   count ++; 
+   count ++; //Not passed by reference as for each call, it represents how deep we are in the recursion. So for each call, it is a new variable.
    solve (inputStack, mid,count); 
    inputStack.push(num); 
 

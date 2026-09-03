@@ -45,4 +45,5 @@ vector<int> findArrayIntersection(vector<int> &arr1, int n, vector<int> &arr2, i
 	return ans;
 }
 
-//My initial solution was correct but time complexity was too high.I required help from the youtbe video #11 to optimise the solution
+//My initial solution was correct but time complexity was too high.
+//I required help from the youtbe video #11 to optimise the solution
