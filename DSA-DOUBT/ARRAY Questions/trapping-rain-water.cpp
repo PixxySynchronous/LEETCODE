@@ -41,21 +41,52 @@ public:
         }
         return water; 
     }
-    // can be done in o(1) tc and sc with the folowing algo:
-    //     Algorithm
-    // Set two pointers:
-    // l at the start
-    // r at the end
-    // Track leftMax and rightMax as the tallest walls seen.
-    // While l < r:
-    // If leftMax < rightMax:
-    // Move l right.
-    // Update leftMax.
-    // Add leftMax - height[l] to the result.
-    // Else:
-    // Move r left.
-    // Update rightMax.
-    // Add rightMax - height[r] to the result.
-    // Return the total trapped water.
+
+    //TC is O(n) and SC is O(n) for prefix array.
+    //We can also do this in O(1) space by using 2 pointers.
+    class Solution {
+public:
+    int trap(vector<int>& height) {
+
+        int l = 0;
+        int r = height.size() - 1;
+
+        int leftMax = 0;
+        int rightMax = 0;
+
+        int water = 0;
+
+        while (l < r) {
+
+            // If leftMax is smaller, left side is the
+            // limiting factor for the water at l
+            if (leftMax < rightMax) {
+
+                // Move l to the right
+                l++;
+
+                // Update leftMax
+                leftMax = max(leftMax, height[l]);
+
+                // Add water trapped at l
+                water += leftMax - height[l];
+            }
+
+            else {
+
+                // Move r to the left
+                r--;
+
+                // Update rightMax
+                rightMax = max(rightMax, height[r]);
+
+                // Add water trapped at r
+                water += rightMax - height[r];
+            }
+        }
+
+        return water;
+    }
+};
 };
 

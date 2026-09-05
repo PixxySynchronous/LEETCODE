@@ -3,7 +3,7 @@
 // You must write an algorithm that runs in O(n) time and uses only constant auxiliary space, excluding the space needed to store the output
 
  
-//WHhile doing this question would be easier with 2 for loops nested, we have to do it in O(n) time and constant space. So we can use the fact that the numbers are in the range of 1 to n and use the array itself to mark the numbers that we have seen. However i came up with a different solution. 
+//While doing this question would be easier with 2 for loops nested, we have to do it in O(n) time and constant space. So we can use the fact that the numbers are in the range of 1 to n and use the array itself to mark the numbers that we have seen. However i came up with a different solution. 
 
 class Solution {
 public:

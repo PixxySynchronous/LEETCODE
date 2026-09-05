@@ -23,9 +23,9 @@ public:
             ans.push_back(output);
             return; 
         }
-        int number = digits [index] - '0'; 
+        int number = digits [index] - '0'; //convert the character to an integer.eg '2' - '0' = 2.
         string value = mapping[number]; 
-        for (int i = 0 ; i< value.length(); i++){
+        for (int i = 0 ; i< value.length(); i++){ // for each character mapped to the digit at that index, we make a branch in the state space tree of backtracking.
             output.push_back(value[i]); 
             solve (digits,output,ans,index+1,mapping);
             output.pop_back(); 

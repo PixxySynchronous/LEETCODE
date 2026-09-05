@@ -19,4 +19,7 @@ for (int i=0;i<size;i++){
 return ans;}
 
 
-//Couldnt figure out the XOR approach. Basically xor with 0 returns the same number and xor with itself returns 0.so all elements that are present twice will cancel each other out, leaving only the unique element.
+//Couldnt figure out the XOR approach. 
+//Basically xor with 0 returns the same number and xor with itself returns 0.
+//so all elements that are present twice will cancel each other out, leaving only 
+//the unique element.

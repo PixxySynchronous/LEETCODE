@@ -21,4 +21,8 @@ int main() {
     
 
     return 0;
-//Faced issues initially after learnign the logic. was able to write almost all of the code on my own just made a simple mistake of adding a = sign in if condition. Also we return s and not mid as mid is not calculated after the loop ends which means there is a cahnce that it is diff than the value fo the pivot
+//Faced issues initially after learnign the logic. 
+//was able to write almost all of the code on my own just made a simple mistake of 
+//adding a = sign in if condition. Also we return s and not mid as mid is not 
+//calculated after the loop ends which means there is a cahnce that it is diff than 
+//the value fo the pivot

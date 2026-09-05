@@ -70,4 +70,7 @@ pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
 }
 
 
-//My initial solution was simpler and involved the 2 pointer approach. however this meant a time complexity of O(n) in the worst case. Since the question proposed a constraint of O(log n) i saw the solution from the video and then after many hours implemented the logic myself.
+//My initial solution was simpler and involved the 2 pointer approach.
+// however this meant a time complexity of O(n) in the worst case. 
+//Since the question proposed a constraint of O(log n) i saw the solution from the video and 
+//then after many hours implemented the logic myself.

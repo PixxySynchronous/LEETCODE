@@ -33,9 +33,6 @@ bool possiblesol(vector<int> &boards, int k, int mid){
     return true; 
 }
 
-
-
-
 int findLargestMinDistance(vector<int> &boards, int k)
 {
     int s = *max_element(boards.begin(), boards.end());

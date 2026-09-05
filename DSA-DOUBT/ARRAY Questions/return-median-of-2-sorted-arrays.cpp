@@ -29,13 +29,14 @@ public:
             sortedarray.push_back(nums2[pointer2]); 
             pointer2++;
         }
+        // Calculate the median
         double medianindex = (sortedarray.size()+1)/2.0;
-        if (sortedarray.size()%2!=0)
-        return sortedarray[medianindex-1];
-        else{
-            medianindex+=0.5;
-            return ((sortedarray[medianindex-1]+sortedarray[medianindex-2])/2.0);
-        }
+        int n = sortedarray.size();
+
+        if (n % 2 != 0)
+        return sortedarray[n / 2];
+        else
+        return (sortedarray[n / 2] + sortedarray[n / 2 - 1]) / 2.0;
         
 
     

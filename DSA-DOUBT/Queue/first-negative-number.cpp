@@ -47,7 +47,7 @@ class Solution {
         if ( arr[i] < 0)
             q.push(i); 
         if (!q.empty() && q.front()<i-k+1)//CHECK IF THE NEGATIVE NUMBER FALLS IN THE WINDOW 
-            q.pop(); 
+            q.pop(); // if not in the window, remove it
         if (i>=k-1){//need to start sliding window once the first window is in fully. If its not in, redo the loop
             if (!q.empty())
                 output.push_back(arr[q.front()]); //dont pop after this as the popping happens above already. 

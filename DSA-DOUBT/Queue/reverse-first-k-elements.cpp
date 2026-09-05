@@ -16,15 +16,16 @@ class Solution {
         return q;
         stack <int> s; 
         int n = q.size(); 
-        for (int i = 0 ; i < k ; i++){
+        for (int i = 0 ; i < k ; i++){ //push the first k elements into a stack.
             s.push(q.front()); 
             q.pop(); 
         }
-        while (!s.empty()){
+        while (!s.empty()){ //pop the elements from the stack and push them back into the queue. This will reverse the order of the first k elements.
+            // this results in the first k elements being reversed and the rest of the elements being in the same order as before.
             q.push(s.top());
             s.pop(); 
         }
-        for ( int i =0 ; i<n-k; i++){
+        for ( int i =0 ; i<n-k; i++){ // push the remaining elements of the queue to the back of the queue. This will maintain the order of the remaining elements.
             q.push(q.front()); 
             q.pop(); 
         }

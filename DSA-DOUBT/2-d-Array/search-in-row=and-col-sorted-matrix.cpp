@@ -25,3 +25,4 @@ public:
 };
 
 //Needed help with the approach. 
+//tc is O(m+n) where m is number of rows and n is number of columns. because in worst case we will traverse the whole first row and the whole last column.

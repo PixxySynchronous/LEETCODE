@@ -27,7 +27,9 @@ public:
         //Since we need to do this in place, we need to store the information of 
         //which row and which column needs to be turned to 0 entirely in the matrix 
         //itself. This can be done by making the first element of the row which needs to
-        //be turned to 0 as 0 and the first element of the column which needs to be 0 to 0. However We run into 3 problems because of this. What if the first element of that row or column is already 0? and also the 0,0 element contains information for the row or the column to be tunred to 0? To fix this we require a boolean variable. 
+        //be turned to 0 as 0 and the first element of the column which needs to be 0 to 0. However We run into 3 problems because of this.
+        //What if the first element of that row or column is already 0? and also the 0,0 element contains information for the row or the column to be tunred to 0?
+        // To fix this we require a boolean variable. 
         bool firstrow = false; 
         bool firstcol = false; 
             //STORE if first row has a 0.

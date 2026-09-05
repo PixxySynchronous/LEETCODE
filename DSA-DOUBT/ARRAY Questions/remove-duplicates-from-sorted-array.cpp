@@ -41,11 +41,11 @@ public:
         //k is number of unique elements, starting from 1 cuz atleast one element
         //will always be unique. It also serves as a boundary. All elements behind k are unique. Whenever a new element is found, its swapped with nums[k] and then k++. 
         for (int i = 1; i<nums.size(); i++){
-            if (nums[i] == nums[k-1]){
+            if (nums[i] == nums[k-1]){ //if the current element is equal to the last unique element, we dont do anything and move on.
                 continue;
             }
             else{
-                swap (nums[i], nums[k]);
+                swap (nums[i], nums[k]); // swap the current element with the first non unique element (nums[k]) and then increment k.
                 k++;
             }
         }
