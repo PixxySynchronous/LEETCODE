@@ -37,29 +37,29 @@
 // };
 // */
 
-// class Solution {
-//   public:
-//     void flatten(Node* root) {
-//         // We can see that we need to traverse the root, then its left subtree and then its right subtree
-//         // However since we need to make it a ll, we only need one pointer, and since we need to go to the left
-//         // first, we need to abolish each node's right pointer. But this would mean that the right subtree would be lost. 
-//         // To preserve the right subtree, we use moris traversal. Find the predecessor and point its right to the curr->right.
-//         // Since now curr -> right is saved, we can simply do curr ->right = curr -> left and curr -> left == NULL
-//         Node* curr = root; 
-//         while (curr != NULL){
-//             if (curr -> left == NULL){
-//                 curr = curr -> right; 
-//             }
-//             else {
-//                 Node* pred = curr -> left; 
-//                 while (pred ->right != NULL)
-//                     pred = pred -> right; 
-//                 pred -> right = curr -> right; //connect the rightmost node of left subtree to the first node of right subtree
-//                 curr -> right = curr -> left; 
-//                 curr -> left = NULL; 
-//                 curr = curr -> right; 
-//             }
-//         }
+class Solution {
+  public:
+    void flatten(Node* root) {
+        // We can see that we need to traverse the root, then its left subtree and then its right subtree
+        // However since we need to make it a ll, we only need one pointer, and since we need to go to the left
+        // first, we need to abolish each node's right pointer. But this would mean that the right subtree would be lost. 
+        // To preserve the right subtree, we use moris traversal. Find the predecessor and point its right to the curr->right.
+        // Since now curr -> right is saved, we can simply do curr ->right = curr -> left and curr -> left == NULL
+        Node* curr = root; 
+        while (curr != NULL){
+            if (curr -> left == NULL){
+                curr = curr -> right; 
+            }
+            else {
+                Node* pred = curr -> left; 
+                while (pred ->right != NULL)
+                    pred = pred -> right; 
+                pred -> right = curr -> right; //connect the rightmost node of left subtree to the first node of right subtree
+                curr -> right = curr -> left; 
+                curr -> left = NULL; 
+                curr = curr -> right; 
+            }
+        }
 //         //TC: o(n) and SC o(1)
     
         
