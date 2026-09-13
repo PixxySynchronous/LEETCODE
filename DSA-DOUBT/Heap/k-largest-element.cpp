@@ -38,7 +38,7 @@ public:
     //     return ans; 
 
     // }
-    //Can also be done via priority queue. Priority queue maintains a heap. If we maintain a max heap of size k, the top most element will have the kth biggest element. 
+    //Can also be done via priority queue. Priority queue maintains a heap. If we maintain a min heap of size k, the top most element will have the kth biggest element. 
     priority_queue<int, vector<int>, greater<int>> pq; //a min heap is required. 
     //This is because we want the kth Largest element. So we want to keep the biggest k elements in the heap. And the top of this heap would be the smallest amongst them (as it is a min heap), so we return that. 
     for (int x: nums){
