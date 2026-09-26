@@ -20,16 +20,16 @@ This repository contains my **personally written solutions** to problems from
 <!-- STATS:START -->
 ## Progress Stats
 
-**Total Questions Solved: 185**
+**Total Questions Solved: 188**
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#ff595e', 'pie2': '#ff924c', 'pie3': '#ffca3a', 'pie4': '#c5ca30','pie5': '#8ac926', 'pie6': '#36949d', 'pie7': '#1982c4', 'pie8': '#4267ac','pie9': '#565aa0', 'pie10': '#6a4c93', 'pie11': '#b5179e', 'pie12': '#f15bb5','pieOpacity': '1', 'pieStrokeColor': '#00000022', 'pieOuterStrokeWidth': '0'}}}%%
 pie showData
     title Questions Solved by Topic
     "DSA-DOUBT: 2-d-Array" : 6
-    "DSA-DOUBT: ARRAY Questions" : 42
+    "DSA-DOUBT: ARRAY Questions" : 44
     "DSA-DOUBT: Heap" : 14
-    "DSA-DOUBT: Linked-list" : 16
+    "DSA-DOUBT: Linked-list" : 17
     "DSA-DOUBT: Number system" : 6
     "DSA-DOUBT: Queue" : 3
     "DSA-DOUBT: Recursion" : 5
@@ -46,16 +46,16 @@ pie showData
     "SQL: nth-heighest" : 3
 ```
 
-### DSA-DOUBT (156)
+### DSA-DOUBT (159)
 
 <div align="center">
 
 | Topic | Count |
 |---|---|
 | 2-d-Array | 6 |
-| ARRAY Questions | 42 |
+| ARRAY Questions | 44 |
 | Heap | 14 |
-| Linked-list | 16 |
+| Linked-list | 17 |
 | Number system | 6 |
 | Queue | 3 |
 | Recursion | 5 |
