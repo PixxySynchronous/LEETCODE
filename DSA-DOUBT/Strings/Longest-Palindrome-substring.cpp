@@ -15,7 +15,7 @@ public:
                 r++;
             }//note: after while loop, left has gone one behind the vlaid palindrome and right has gone one ahead. 
             currentLength = r-l-1; //current length = r - 1 - (l+1) + 1 (as 0 indexing)
-            if (currentLength>res.size()){
+            if (currentLength>res.size()){ // 
                  start = l+1;
                  maxLength = currentLength;
             }

@@ -49,4 +49,5 @@ public:
     }
 };
 
- //Couldnt solve this question with my own logic so took the help of the video. The concept of workspace is now understood and is also noted down. An initial window is made and compared, if it doenst match, to move the wnidow, we add a new character and take out the old character. 
+ //Couldnt solve this question with my own logic so took the help of the video. The concept of workspace is now understood and is also noted down. 
+ //An initial window is made and compared, if it doenst match, to move the wnidow, we add a new character and take out the old character. 
