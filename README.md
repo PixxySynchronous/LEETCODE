@@ -20,7 +20,7 @@ This repository contains my **personally written solutions** to problems from
 <!-- STATS:START -->
 ## Progress Stats
 
-**Total Questions Solved: 197**
+**Total Questions Solved: 198**
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#ff595e', 'pie2': '#ff924c', 'pie3': '#ffca3a', 'pie4': '#c5ca30','pie5': '#8ac926', 'pie6': '#36949d', 'pie7': '#1982c4', 'pie8': '#4267ac','pie9': '#565aa0', 'pie10': '#6a4c93', 'pie11': '#b5179e', 'pie12': '#f15bb5','pieOpacity': '1', 'pieStrokeColor': '#00000022', 'pieOuterStrokeWidth': '0'}}}%%
@@ -32,7 +32,7 @@ pie showData
     "DSA-DOUBT: Linked-list" : 18
     "DSA-DOUBT: Number system" : 6
     "DSA-DOUBT: Queue" : 3
-    "DSA-DOUBT: Recursion" : 5
+    "DSA-DOUBT: Recursion" : 6
     "DSA-DOUBT: Stacks " : 13
     "DSA-DOUBT: Strings" : 20
     "DSA-DOUBT: Trees" : 34
@@ -46,7 +46,7 @@ pie showData
     "SQL: nth-heighest" : 3
 ```
 
-### DSA-DOUBT (168)
+### DSA-DOUBT (169)
 
 <div align="center">
 
@@ -58,7 +58,7 @@ pie showData
 | Linked-list | 18 |
 | Number system | 6 |
 | Queue | 3 |
-| Recursion | 5 |
+| Recursion | 6 |
 | Stacks  | 13 |
 | Strings | 20 |
 | Trees | 34 |
