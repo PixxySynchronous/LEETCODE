@@ -20,7 +20,7 @@ This repository contains my **personally written solutions** to problems from
 <!-- STATS:START -->
 ## Progress Stats
 
-**Total Questions Solved: 201**
+**Total Questions Solved: 203**
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#ff595e', 'pie2': '#ff924c', 'pie3': '#ffca3a', 'pie4': '#c5ca30','pie5': '#8ac926', 'pie6': '#36949d', 'pie7': '#1982c4', 'pie8': '#4267ac','pie9': '#565aa0', 'pie10': '#6a4c93', 'pie11': '#b5179e', 'pie12': '#f15bb5','pieOpacity': '1', 'pieStrokeColor': '#00000022', 'pieOuterStrokeWidth': '0'}}}%%
@@ -28,6 +28,7 @@ pie showData
     title Questions Solved by Topic
     "DSA-DOUBT: 2-d-Array" : 6
     "DSA-DOUBT: ARRAY Questions" : 51
+    "DSA-DOUBT: Graphs" : 1
     "DSA-DOUBT: Heap" : 14
     "DSA-DOUBT: Linked-list" : 18
     "DSA-DOUBT: Number system" : 6
@@ -35,7 +36,7 @@ pie showData
     "DSA-DOUBT: Recursion" : 7
     "DSA-DOUBT: Stacks " : 13
     "DSA-DOUBT: Strings" : 20
-    "DSA-DOUBT: Trees" : 34
+    "DSA-DOUBT: Trees" : 35
     "DSA-NO-DOUBT: 2-d-array.cpp" : 2
     "DSA-NO-DOUBT" : 9
     "DSA-IMPOSSIBLE" : 2
@@ -46,7 +47,7 @@ pie showData
     "SQL: nth-heighest" : 3
 ```
 
-### DSA-DOUBT (172)
+### DSA-DOUBT (174)
 
 <div align="center">
 
@@ -54,6 +55,7 @@ pie showData
 |---|---|
 | 2-d-Array | 6 |
 | ARRAY Questions | 51 |
+| Graphs | 1 |
 | Heap | 14 |
 | Linked-list | 18 |
 | Number system | 6 |
@@ -61,7 +63,7 @@ pie showData
 | Recursion | 7 |
 | Stacks  | 13 |
 | Strings | 20 |
-| Trees | 34 |
+| Trees | 35 |
 
 </div>
 
